@@ -9,5 +9,4 @@ $(dieci).empty();
 const outline = () => $("#cinque").addClass("btn btn-outline-success");
 $("button").click(outline);
 
-const undo = () => $("#cinque").off("click");
-$("#uno").hover(undo);
+const undo = () => $("#cinque").off("click", "#uno");
